@@ -4,7 +4,7 @@ const outputName = document.querySelector('#name-output');
 function updateGreeting() {
   const greeting = inputName.value.trim();
   if (greeting.length === 0) {
-    outputName.textContent = 'Anonymus';
+    outputName.textContent = 'Anonymous';
   } else {
     outputName.textContent = greeting;
   }
